@@ -76,17 +76,4 @@ Upon execution, the pipeline produces:
    - `difficulty_vs_success.png`
    - `activity_time_pattern.png`
 
----
 
-## 🎤 Interview STAR Narrative (Use this in Interviews!)
-
-> **Situation**: "While practicing competitive programming, I noticed my rating stalled despite solving 1200+ problems. I wanted to use data to pinpoint my exact technical weaknesses and optimize my study strategy."
->
-> **Task**: "I built an end-to-end performance analytics pipeline using Python, SQLite, Pandas, and Excel to analyze my entire submission history and contest records."
->
-> **Action**:
-> - Fetched real-time data from the Codeforces REST API and stored raw logs into a structured SQLite database.
-> - Engineered custom analytical queries in SQL and Pandas to compute topic-level accuracy (DP vs. Graph vs. Greedy), difficulty ceiling, and peak solving hours.
-> - Built automated visual heatmaps and a formatted multi-sheet Excel performance dashboard.
->
-> **Result**: "The analysis revealed that while my Greedy accuracy was 72%, my Dynamic Programming accuracy was below 41% on 1600+ rated problems. By shifting my practice focus specifically to DP, I systematically raised my rating ceiling and improved overall solving efficiency."
